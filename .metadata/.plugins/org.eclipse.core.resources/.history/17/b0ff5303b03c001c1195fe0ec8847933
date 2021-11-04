@@ -1,0 +1,18 @@
+package jdbc;
+
+import java.sql.*;
+import java.util.ResourceBundle;
+
+public class TestConnexionJdbc {
+
+	public static void main(String[] args) throws SQLException {
+
+		ResourceBundle props = ResourceBundle.getBundle("database");
+		String url = props.getString("database.url");
+		String login = props.getString("database.login");
+		String pwd = props.getString("database.pwd");
+		Connection connection = DriverManager.getConnection(url, login, pwd);
+		System.out.println(connection);
+		connection.close();
+	}
+}

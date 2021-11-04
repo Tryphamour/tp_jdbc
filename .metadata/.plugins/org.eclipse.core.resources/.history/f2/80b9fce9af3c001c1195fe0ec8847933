@@ -1,0 +1,4 @@
+jdbc.driver=org.mariadb.jdbc.Driver
+jdbc.url=jdbc:mysql://urk0tcfyunschrjl:oVIlgHjKlZ94kDl9cDZP@bildio87fxqpg6wmvmnb-mysql.services.clever-cloud.com:3306/bildio87fxqpg6wmvmnb
+jdbc.login=root
+jdbc.pwd=root1234

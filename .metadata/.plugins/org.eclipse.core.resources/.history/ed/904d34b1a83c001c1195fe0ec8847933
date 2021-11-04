@@ -1,0 +1,4 @@
+jdbc.driver=org.mariadb.jdbc.driver
+jdbc.db.url=jdbc:mariadb://localhost:3306
+jdbc.db.login=root
+jdbc.db.pw=root1234

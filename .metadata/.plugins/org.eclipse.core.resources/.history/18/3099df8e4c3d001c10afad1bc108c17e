@@ -1,0 +1,4 @@
+jdbc.driver=bildio87fxqpg6wmvmnb-mysql.services.clever-cloud.com
+jdbc.url=jdbc:mysql://bildio87fxqpg6wmvmnb-mysql.services.clever-cloud.com:3306/bildio87fxqpg6wmvmnb
+jdbc.login=urk0tcfyunschrjl
+jdbc.pwd=oVIlgHjKlZ94kDl9cDZP

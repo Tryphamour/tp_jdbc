@@ -1,0 +1,18 @@
+package jdbc;
+
+import java.sql.*;
+
+public class TestConnexionJdbc {
+
+	private static final String DB_URL = "";
+	private static final String DB_LOGIN = "root";
+	private static final String DB_PWD = "root1234";
+
+	public static void main(String[] args) throws SQLException {
+		
+		Connection connection = DriverManager.getConnection( DB_URL, DB_LOGIN, DB_PWD);
+		System.out.println(connection);
+		connection.close();
+		
+	}
+}
